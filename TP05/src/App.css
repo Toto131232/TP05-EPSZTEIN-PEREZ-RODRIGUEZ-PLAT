@@ -1,25 +1,21 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f5f5f5;
   color: #222;
 }
 
-/* Contenedor */
 .app {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-/* Título */
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -34,7 +30,6 @@ header p {
   font-size: 14px;
 }
 
-/* Buscador */
 form {
   display: flex;
   gap: 10px;
@@ -61,14 +56,12 @@ button:hover {
   background-color: #333;
 }
 
-/* Lista */
 .movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 15px;
 }
 
-/* Tarjeta */
 .movie-card {
   background-color: white;
   border: 1px solid #ddd;
@@ -92,7 +85,6 @@ button:hover {
   color: #555;
 }
 
-/* Detalle */
 .movie-detail {
   text-align: center;
 }
@@ -106,7 +98,6 @@ button:hover {
   margin: 4px 0;
 }
 
-/* Estados */
 .loader {
   text-align: center;
   margin-top: 15px;
